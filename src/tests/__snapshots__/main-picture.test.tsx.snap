@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPicture component should render MainPicture component 1`] = `
+<body>
+  <div>
+    <div
+      class="space__spaceContainer_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as main__picture"
+    >
+      <div
+        class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+      >
+        <a
+          href="/made-in-alfa"
+        >
+          <h1
+            class="typography__component_19zgr typography__styrene-medium_pxbut typography__bold_pxbut"
+          >
+            Сделано в Альфе
+          </h1>
+          <div
+            class="skeleton__component_1bshy skeleton__animate_1bshy"
+          >
+            <img
+              alt="Сделано в Альфе"
+              class=""
+              src="http://qa-games.ru/astore/public/images/61646585.png"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+`;

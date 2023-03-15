@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render Footer component 1`] = `
+<body>
+  <div>
+    <div
+      class="footer"
+    >
+      <div
+        class="space__spaceContainer_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+      >
+        <div
+          class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+        >
+          <p
+            class="typography__paragraph_c16y5 typography__disabled_hpb71 typography__primary-medium_c16y5 typography__medium_c16y5"
+          >
+            © ООО «Альфа Фьюче Пипл», 2023
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

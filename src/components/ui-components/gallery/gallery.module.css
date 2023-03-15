@@ -1,0 +1,44 @@
+@import "../../../css/variables.css";
+
+.gallery {
+  padding: 0 15px;
+  width: 600px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: top 20%;
+}
+
+.gallery .gallery__small_pictures {
+  max-width: 100px;
+}
+.gallery_container img {
+  border: 2px solid var(--grey-color);
+}
+
+.gallery__small_pictures img {
+  height: 60px;
+  width: 60px;
+}
+
+@media (max-width: 1165px) {
+  .gallery {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1065px) {
+  .gallery {
+    width: 640px;
+  }
+}
+
+@media (max-width: 660px) {
+  .gallery {
+    margin-right: 15px;
+    width: 100%;
+  }
+}

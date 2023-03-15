@@ -1,0 +1,26 @@
+@import "../../css/animation.css";
+
+.yandex_map {
+  position: relative;
+  width: 760px;
+  height: 350px;
+  composes: opacity from global;
+}
+
+@media (max-width: 810px) {
+  .yandex_map {
+    width: 470px;
+  }
+}
+
+@media (max-width: 525px) {
+  .yandex_map {
+    width: 395px;
+  }
+}
+
+@media (max-width: 480px) {
+  .yandex_map {
+    width: 375px;
+  }
+}

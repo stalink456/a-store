@@ -1,0 +1,1093 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YourDesign component should render YourDesign component 1`] = `
+<body>
+  <div>
+    <div
+      class="page"
+    >
+      <div
+        class="your_design"
+      >
+        <div
+          class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as your_design__container"
+        >
+          <div
+            class="space__spaceItem_nr3as"
+            style="margin-bottom: 16px;"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <h1
+                  class="typography__component_19zgr your_design__title typography__styrene-xlarge_pxbut typography__bold_pxbut"
+                >
+                  Свой дизайн
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as"
+            style="margin-bottom: 16px;"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <h6
+                  class="typography__component_19zgr your_design__subtitle typography__styrene-small_pxbut typography__medium_pxbut"
+                >
+                  Выберите вещь, а затем — цвет, размер и стикер. Перенесём стикер на вещь как на фото
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as"
+            style="margin-bottom: 16px;"
+          >
+            <div
+              class="groups__card"
+            >
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+              >
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_title"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                    >
+                      <h1
+                        class="typography__component_19zgr typography__styrene-xlarge_pxbut typography__bold_pxbut"
+                      >
+                        Бархатные стикеры
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_sub_title"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                    >
+                      <h6
+                        class="typography__component_19zgr typography__styrene-small_pxbut typography__medium_pxbut"
+                      >
+                        Тактильный антистресс
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__start_nr3as groups__card__products"
+                    style="flex-wrap: wrap; margin-bottom: 0px;"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 0px; padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/5"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Худи с бархатными стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/43306375.jpeg"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Худи с бархатными стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-5"
+                                  >
+                                    Выберите один из восьми стикеров
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-5"
+                                  >
+                                    4199
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 0px; padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/6"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Футболка с бархатными стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/61646585.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Футболка с бархатными стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-6"
+                                  >
+                                    Все варианты — внутри
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-6"
+                                  >
+                                    1799
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/7"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Футболка оверсайз с бархатными стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/51168667.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Футболка оверсайз с бархатными стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-7"
+                                  >
+                                    Нажмите, чтобы выбрать стикер
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-7"
+                                  >
+                                    1799
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+              >
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_title"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                    >
+                      <h1
+                        class="typography__component_19zgr typography__styrene-xlarge_pxbut typography__bold_pxbut"
+                      >
+                        FLAT-стикеры
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_sub_title"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                    >
+                      <h6
+                        class="typography__component_19zgr typography__styrene-small_pxbut typography__medium_pxbut"
+                      >
+                        Тема для обсуждения в любой компании
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__start_nr3as groups__card__products"
+                    style="flex-wrap: wrap; margin-bottom: 0px;"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 0px; padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/8"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Худи с FLAT-стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/80077475.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Худи с FLAT-стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-8"
+                                  >
+                                    Выберите один из 20 стикеров
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-8"
+                                  >
+                                    4149
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 0px; padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/9"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Футболка с FLAT-стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/64963633.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Футболка с FLAT-стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-9"
+                                  >
+                                    Все варианты — внутри
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-9"
+                                  >
+                                    1749
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/10"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Футболка оверсайз с FLAT-стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/48495271.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Футболка оверсайз с FLAT-стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-10"
+                                  >
+                                    Нажмите, чтобы выбрать стикер
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-10"
+                                  >
+                                    1949
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+              >
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_title"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                    >
+                      <h1
+                        class="typography__component_19zgr typography__styrene-xlarge_pxbut typography__bold_pxbut"
+                      >
+                        3D-стикеры
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_sub_title"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                    >
+                      <h6
+                        class="typography__component_19zgr typography__styrene-small_pxbut typography__medium_pxbut"
+                      >
+                        Дизайн с эффектом объёмного градиента
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__start_nr3as groups__card__products"
+                    style="flex-wrap: wrap; margin-bottom: 0px;"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 0px; padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/11"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Худи с 3D-стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/89787126.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Худи с 3D-стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-11"
+                                  >
+                                    Нажмите, чтобы выбрать стикер
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-11"
+                                  >
+                                    4099
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 0px; padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/12"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Футболка с 3D-стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/85987507.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Футболка с 3D-стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-12"
+                                  >
+                                    Все варианты — внутри
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-12"
+                                  >
+                                    1699
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="padding-bottom: 0px;"
+                    >
+                      <div
+                        class="products_card"
+                      >
+                        <a
+                          href="/product/13"
+                        >
+                          <div
+                            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                            style="flex-wrap: wrap; margin-bottom: 0px;"
+                          >
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <div
+                                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                                  >
+                                    <img
+                                      alt="Футболка оверсайз с 3D-стикерами"
+                                      class=""
+                                      src="http://qa-games.ru/astore/public/images/79520262.png"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <h6
+                                    class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                                  >
+                                    Футболка оверсайз с 3D-стикерами
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                              style="margin-bottom: 0px;"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                                    data-testid="subtitle-13"
+                                  >
+                                    Нажмите, чтобы выбрать стикер
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="space__spaceItem_nr3as"
+                            >
+                              <div
+                                class="space__spaceContainer_nr3as space__start_nr3as"
+                              >
+                                <div
+                                  class="space__spaceItem_nr3as"
+                                >
+                                  <p
+                                    class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                                    data-testid="price-13"
+                                  >
+                                    1899
+                                     ₽
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <h6
+                  class="typography__component_19zgr your_design__footer_text typography__styrene-medium_pxbut typography__bold_pxbut typography__tertiary_hpb71"
+                >
+                  Посмотреть и потрогать все стикеры можно в A-Store на Технопарке. А ещё там можно добавить сразу несколько стикеров на одну вещь.
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

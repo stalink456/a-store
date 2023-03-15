@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart component should render Cart component 1`] = `
+<body>
+  <div>
+    <div
+      class="cart"
+    >
+      <div
+        class="cart__wrapper"
+      >
+        <button
+          class="button__component_j4291 button__ghost_j4291 button__s_j4291 button__component_3xn9f button__ghost_3xn9f cart__icon icon-button__primary_2t17d icon-button__component_2t17d"
+          data-testid="cart-icon"
+          type="button"
+        >
+          <span
+            class="button__text_j4291 button__stretchText_j4291"
+          >
+            <span
+              class="icon-button__iconWrapper_pctl3 icon-button__s_pctl3"
+            >
+              <svg
+                class="icon-button__icon_pctl3"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M832 312H696v-16c0-101.6-82.4-184-184-184s-184 82.4-184 184v16H192c-17.7 0-32 14.3-32 32v536c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V344c0-17.7-14.3-32-32-32zm-432-16c0-61.9 50.1-112 112-112s112 50.1 112 112v16H400v-16zm392 544H232V384h96v88c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-88h224v88c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-88h96v456z"
+                />
+              </svg>
+            </span>
+          </span>
+        </button>
+        <p
+          class="typography__paragraph_c16y5 cart__icon_text typography__primary-medium_c16y5"
+        >
+          1
+        </p>
+        <div
+          class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as cart__icon_tooltip"
+        >
+          <div
+            class="space__spaceItem_nr3as"
+          >
+            <p
+              class="typography__paragraph_c16y5 cart__icon_tooltip__text typography__primary-large_c16y5 typography__bold_c16y5"
+            >
+              = 
+               ₽
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="cart_panel"
+      />
+    </div>
+  </div>
+</body>
+`;

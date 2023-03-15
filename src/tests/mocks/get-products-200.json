@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 6,
+      "preview": "http://qa-games.ru/astore/public/images/61646585.png",
+      "images": [
+        "http://qa-games.ru/astore/public/images/61646585.png",
+        "http://qa-games.ru/astore/public/images/29918301.png",
+        "http://qa-games.ru/astore/public/images/23597101.png",
+        "http://qa-games.ru/astore/public/images/79160052.png",
+        "http://qa-games.ru/astore/public/images/34570797.png",
+        "http://qa-games.ru/astore/public/images/95291281.png",
+        "http://qa-games.ru/astore/public/images/1_3d.png",
+        "http://qa-games.ru/astore/public/images/2_3d.png",
+        "http://qa-games.ru/astore/public/images/45157942.png",
+        "http://qa-games.ru/astore/public/images/Frame_117.png"
+      ],
+      "title": "Футболка с бархатными стикерами",
+      "subtitle": "Все варианты — внутри",
+      "price": 1799,
+      "description": "Выберите стикер, а мы перенесём его на ткань — как на фото. Одежду можно стирать в машинке при 30 °C, вывернув наизнанку. Гладить — с внутренней стороны. Посмотреть и потрогать все стикеры можно в A-Store на Технопарке. А ещё там можно добавить сразу несколько стикеров на одну вещь.",
+      "colors": ["white", "black", "red", "green", "gray"],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "stickerNumbers": [1, 2, 3, 4, 5, 6, 7, 8],
+      "availability": true
+    }
+  ]
+}

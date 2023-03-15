@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleWithComponent component should render TitleWithComponent component 1`] = `
+<body>
+  <div>
+    <div
+      class="title_with_component"
+    >
+      <h6
+        class="typography__component_19zgr typography__styrene-small_pxbut typography__bold_pxbut"
+      >
+        Title
+      </h6>
+    </div>
+  </div>
+</body>
+`;

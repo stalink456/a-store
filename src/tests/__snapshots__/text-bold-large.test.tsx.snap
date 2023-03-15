@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextBoldLarge component should render TextBoldLarge component 1`] = `
+<body>
+  <div>
+    <span
+      class="typography__primary-large_c16y5 typography__bold_c16y5"
+    >
+      A-Store
+    </span>
+  </div>
+</body>
+`;

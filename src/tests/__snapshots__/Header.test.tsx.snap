@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render Header component 1`] = `
+<body>
+  <div>
+    <div
+      class="header"
+    >
+      <div
+        class="space__spaceContainer_nr3as space__start_nr3as header__container"
+      >
+        <div
+          class="space__spaceItem_nr3as"
+          style="margin-right: 16px;"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__start_nr3as"
+          >
+            <div
+              class="space__spaceItem_nr3as"
+            >
+              <a
+                href="/"
+              >
+                <h1
+                  class="typography__component_19zgr typography__styrene-large_pxbut typography__bold_pxbut"
+                >
+                  A-Store
+                </h1>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="space__spaceItem_nr3as"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__start_nr3as header__menu"
+          >
+            <div
+              class="space__spaceItem_nr3as"
+              style="margin-right: 8px;"
+            >
+              <button
+                class="button__component_j4291 button__ghost_j4291 button__s_j4291 button__component_3xn9f button__ghost_3xn9f icon-button__primary_2t17d icon-button__component_2t17d"
+                type="button"
+              >
+                <span
+                  class="button__text_j4291 button__stretchText_j4291"
+                >
+                  <span
+                    class="icon-button__iconWrapper_pctl3 icon-button__xs_pctl3"
+                  >
+                    <svg
+                      class="icon-button__icon_pctl3"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+            </div>
+            <div
+              class="space__spaceItem_nr3as"
+            >
+              <button
+                class="button__component_j4291 button__ghost_j4291 button__m_j4291 button__component_3xn9f button__ghost_3xn9f header__menu_button"
+                type="button"
+              >
+                <span
+                  class="button__text_j4291 button__stretchText_j4291"
+                >
+                  меню
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="menu "
+      >
+        <div
+          class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+        >
+          <div
+            class="space__spaceItem_nr3as"
+            style="margin-bottom: 16px;"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as menu__header"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <a
+                  href="/"
+                >
+                  <h1
+                    class="typography__component_19zgr typography__styrene-xlarge_pxbut typography__bold_pxbut"
+                  >
+                    A-Store
+                  </h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <button
+                  class="button__component_j4291 button__ghost_j4291 button__s_j4291 button__component_3xn9f button__ghost_3xn9f menu_close icon-button__primary_2t17d icon-button__component_2t17d"
+                  type="button"
+                >
+                  <span
+                    class="button__text_j4291 button__stretchText_j4291"
+                  >
+                    <span
+                      class="icon-button__iconWrapper_pctl3 icon-button__s_pctl3"
+                    >
+                      <svg
+                        class="icon-button__icon_pctl3"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        version="1.1"
+                        viewBox="0 0 17 17"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g />
+                        <path
+                          d="M9.207 8.5l6.646 6.646-0.707 0.707-6.646-6.646-6.646 6.646-0.707-0.707 6.646-6.646-6.647-6.646 0.707-0.707 6.647 6.646 6.646-6.646 0.707 0.707-6.646 6.646z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="space__spaceContainer_nr3as space__start_nr3as menu__links"
+        >
+          <div
+            class="space__spaceItem_nr3as"
+          >
+            <ul
+              class="list__list_1xj0t"
+            >
+              <li
+                class="list__item_1xj0t list__unorderedItem_1xj0t"
+              >
+                <div
+                  class="list__slot_1xj0t"
+                >
+                   
+                </div>
+                <a
+                  href="/made-in-alfa"
+                >
+                  <h2
+                    class="typography__component_19zgr typography__styrene-medium_pxbut typography__bold_pxbut"
+                  >
+                    Сделано в Альфе
+                  </h2>
+                </a>
+              </li>
+              <li
+                class="list__item_1xj0t list__unorderedItem_1xj0t"
+              >
+                <div
+                  class="list__slot_1xj0t"
+                >
+                   
+                </div>
+                <a
+                  href="/your-design"
+                >
+                  <h2
+                    class="typography__component_19zgr typography__styrene-medium_pxbut typography__bold_pxbut"
+                  >
+                    Свой дизайн
+                  </h2>
+                </a>
+              </li>
+              <li
+                class="list__item_1xj0t list__unorderedItem_1xj0t"
+              >
+                <div
+                  class="list__slot_1xj0t"
+                >
+                   
+                </div>
+                <a
+                  href="/contacts"
+                >
+                  <h2
+                    class="typography__component_19zgr typography__styrene-medium_pxbut typography__bold_pxbut"
+                  >
+                    Контакты
+                  </h2>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as menu__footer"
+        >
+          <div
+            class="space__spaceItem_nr3as"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+                style="margin-right: 16px;"
+              >
+                <a
+                  class="button__component_j4291 button__ghost_j4291 button__s_j4291 button__component_3xn9f button__ghost_3xn9f menu__footer_icon icon-button__primary_2t17d icon-button__component_2t17d"
+                  data-testid="icon-1"
+                  href="mailto:info@alfabankstore.ru"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <span
+                    class="button__text_j4291 button__stretchText_j4291"
+                  >
+                    <span
+                      class="icon-button__iconWrapper_pctl3 icon-button__xs_pctl3"
+                    >
+                      <svg
+                        class="icon-button__icon_pctl3"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div
+                class="space__spaceItem_nr3as"
+                style="margin-right: 16px;"
+              >
+                <a
+                  class="button__component_j4291 button__ghost_j4291 button__s_j4291 button__component_3xn9f button__ghost_3xn9f menu__footer_icon icon-button__primary_2t17d icon-button__component_2t17d"
+                  data-testid="icon-2"
+                  href="tel:+7 906 061-60-20"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <span
+                    class="button__text_j4291 button__stretchText_j4291"
+                  >
+                    <span
+                      class="icon-button__iconWrapper_pctl3 icon-button__xs_pctl3"
+                    >
+                      <svg
+                        class="icon-button__icon_pctl3"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 16 16"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <a
+                  class="button__component_j4291 button__ghost_j4291 button__s_j4291 button__component_3xn9f button__ghost_3xn9f menu__footer_icon icon-button__primary_2t17d icon-button__component_2t17d"
+                  data-testid="icon-3"
+                  href="https://wa.me/79060616020"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <span
+                    class="button__text_j4291 button__stretchText_j4291"
+                  >
+                    <span
+                      class="icon-button__iconWrapper_pctl3 icon-button__xs_pctl3"
+                    >
+                      <svg
+                        class="icon-button__icon_pctl3"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M260.062 32C138.605 32 40.134 129.701 40.134 250.232c0 41.23 11.532 79.79 31.559 112.687L32 480l121.764-38.682c31.508 17.285 67.745 27.146 106.298 27.146C381.535 468.464 480 370.749 480 250.232 480 129.701 381.535 32 260.062 32zm109.362 301.11c-5.174 12.827-28.574 24.533-38.899 25.072-10.314.547-10.608 7.994-66.84-16.434-56.225-24.434-90.052-83.844-92.719-87.67-2.669-3.812-21.78-31.047-20.749-58.455 1.038-27.413 16.047-40.346 21.404-45.725 5.351-5.387 11.486-6.352 15.232-6.413 4.428-.072 7.296-.132 10.573-.011 3.274.124 8.192-.685 12.45 10.639 4.256 11.323 14.443 39.153 15.746 41.989 1.302 2.839 2.108 6.126.102 9.771-2.012 3.653-3.042 5.935-5.961 9.083-2.935 3.148-6.174 7.042-8.792 9.449-2.92 2.665-5.97 5.572-2.9 11.269 3.068 5.693 13.653 24.356 29.779 39.736 20.725 19.771 38.598 26.329 44.098 29.317 5.515 3.004 8.806 2.67 12.226-.929 3.404-3.599 14.639-15.746 18.596-21.169 3.955-5.438 7.661-4.373 12.742-2.329 5.078 2.052 32.157 16.556 37.673 19.551 5.51 2.989 9.193 4.529 10.51 6.9 1.317 2.38.901 13.531-4.271 26.359z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

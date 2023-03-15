@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MadeInAlfa component should render MadeInAlfa component 1`] = `
+<body>
+  <div>
+    <div
+      class="page"
+    >
+      <div
+        class="made_in"
+      >
+        <div
+          class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as made_in__container"
+        >
+          <div
+            class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+            style="margin-bottom: 5px;"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+              >
+                <h1
+                  class="typography__component_19zgr made_in__title typography__styrene-xlarge_pxbut typography__bold_pxbut"
+                >
+                  Сделано в Альфе
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+            style="margin-bottom: 5px;"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <h6
+                  class="typography__component_19zgr made_in__subtitle typography__styrene-small_pxbut typography__medium_pxbut"
+                >
+                  Хотим каждую из этих вещей! Себе, родным и друзьям
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as made_in__products"
+              style="flex-wrap: wrap; margin-bottom: 0px;"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+                style="margin-right: 0px; padding-bottom: 0px;"
+              >
+                <div
+                  class="products_card"
+                >
+                  <a
+                    href="/product/0"
+                  >
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                      style="flex-wrap: wrap; margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="Рюкзак «Для умных и свободных»"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/15932051.jpeg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <h6
+                              class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                            >
+                              Рюкзак «Для умных и свободных»
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <p
+                              class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                              data-testid="price-0"
+                            >
+                              4999
+                               ₽
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="space__spaceItem_nr3as"
+                style="margin-right: 0px; padding-bottom: 0px;"
+              >
+                <div
+                  class="products_card"
+                >
+                  <a
+                    href="/product/1"
+                  >
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                      style="flex-wrap: wrap; margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="Футболка Для умных и свободных"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/68519498.jpeg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <h6
+                              class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                            >
+                              Футболка Для умных и свободных
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <p
+                              class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                              data-testid="price-1"
+                            >
+                              1999
+                               ₽
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="space__spaceItem_nr3as"
+                style="margin-right: 0px; padding-bottom: 0px;"
+              >
+                <div
+                  class="products_card"
+                >
+                  <a
+                    href="/product/2"
+                  >
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                      style="flex-wrap: wrap; margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="Блокнот Для умных и свободных"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/77117755.jpeg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <h6
+                              class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                            >
+                              Блокнот Для умных и свободных
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <p
+                              class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                              data-testid="price-2"
+                            >
+                              1499
+                               ₽
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="space__spaceItem_nr3as"
+                style="margin-right: 0px; padding-bottom: 0px;"
+              >
+                <div
+                  class="products_card"
+                >
+                  <a
+                    href="/product/3"
+                  >
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                      style="flex-wrap: wrap; margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="Чехол с кардхолдером"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/15932051.jpeg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <h6
+                              class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                            >
+                              Чехол с кардхолдером
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <p
+                              class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                              data-testid="price-3"
+                            >
+                              799
+                               ₽
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="space__spaceItem_nr3as"
+                style="padding-bottom: 0px;"
+              >
+                <div
+                  class="products_card"
+                >
+                  <a
+                    href="/product/4"
+                  >
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                      style="flex-wrap: wrap; margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="Экоручка"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/56369345.jpeg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                        style="margin-bottom: 0px;"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <h6
+                              class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                            >
+                              Экоручка
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <p
+                              class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                              data-testid="price-4"
+                            >
+                              99
+                               ₽
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

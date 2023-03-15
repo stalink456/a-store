@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsCard component should render ProductsCard component 1`] = `
+<body>
+  <div>
+    <div
+      class="products_card"
+    >
+      <a
+        href="/product/2"
+      >
+        <div
+          class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+          style="flex-wrap: wrap; margin-bottom: 0px;"
+        >
+          <div
+            class="space__spaceItem_nr3as"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <div
+                  class="skeleton__component_1bshy skeleton__animate_1bshy"
+                >
+                  <img
+                    alt="Блокнот Для умных и свободных"
+                    class=""
+                    src="http://qa-games.ru/astore/public/images/77117755.jpeg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <h6
+                  class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                >
+                  Блокнот Для умных и свободных
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as"
+          >
+            <div
+              class="space__spaceContainer_nr3as space__start_nr3as"
+            >
+              <div
+                class="space__spaceItem_nr3as"
+              >
+                <p
+                  class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                  data-testid="price-2"
+                >
+                  1499
+                   ₽
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
+`;

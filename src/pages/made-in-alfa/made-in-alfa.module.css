@@ -1,0 +1,51 @@
+@import "../../css/variables.css";
+.made_in {
+  padding: 0 15px;
+}
+
+.made_in__container {
+  position: relative;
+  animation: slide-right 1s ease-in-out;
+}
+
+.made_in__title {
+  font-size: 100px;
+}
+
+.made_in__subtitle {
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+@media (max-width: 1065px) {
+  .made_in__title {
+    font-size: 70px;
+  }
+
+  .made_in__subtitle {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 660px) {
+  .made_in__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 520px) {
+  .made_in__title {
+    font-size: 40px;
+  }
+  .made_in__subtitle {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .made_in__container {
+    justify-content: center;
+  }
+}

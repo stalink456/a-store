@@ -1,0 +1,7 @@
+.title_with_component {
+  margin-bottom: var(--gap-2xl);
+}
+
+.title_with_component form {
+  margin: var(--gap-2xl);
+}

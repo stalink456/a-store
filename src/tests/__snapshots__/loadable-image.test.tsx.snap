@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadableImage component should render LoadableImage component 1`] = `
+<body>
+  <div>
+    <div
+      class="skeleton__component_1bshy skeleton__animate_1bshy"
+    >
+      <img
+        alt="Футболка с бархатными стикерами"
+        class=""
+        src="http://qa-games.ru/astore/public/images/61646585.png"
+      />
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,13 @@
+@import "../../../css/animation.css";
+
+.order__delivery {
+  composes: opacity from global;
+}
+
+.order__delivery p {
+  margin-bottom: var(--gap-3xs);
+}
+
+.order__delivery p:first-of-type {
+  margin-bottom: var(--gap-xl);
+}

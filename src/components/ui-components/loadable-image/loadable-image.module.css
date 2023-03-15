@@ -1,0 +1,12 @@
+@import "../../../css/variables.css";
+@import "../../../css/animation.css";
+
+img {
+  width: 400px;
+  height: 600px;
+}
+
+.loaded {
+  position: relative;
+  composes: opacity from global;
+}

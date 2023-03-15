@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupsCard component should render GroupsCard component 1`] = `
+<body>
+  <div>
+    <div
+      class="groups__card"
+    >
+      <div
+        class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+      >
+        <div
+          class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+          style="margin-bottom: 0px;"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_title"
+          >
+            <div
+              class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+            >
+              <h1
+                class="typography__component_19zgr typography__styrene-xlarge_pxbut typography__bold_pxbut"
+              >
+                Бархатные стикеры
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+          style="margin-bottom: 0px;"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as groups__card_sub_title"
+          >
+            <div
+              class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+            >
+              <h6
+                class="typography__component_19zgr typography__styrene-small_pxbut typography__medium_pxbut"
+              >
+                Тактильный антистресс
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__start_nr3as groups__card__products"
+            style="flex-wrap: wrap; margin-bottom: 0px;"
+          >
+            <div
+              class="space__spaceItem_nr3as"
+              style="padding-bottom: 0px;"
+            >
+              <div
+                class="products_card"
+              >
+                <a
+                  href="/product/6"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                    style="flex-wrap: wrap; margin-bottom: 0px;"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceContainer_nr3as space__start_nr3as"
+                      >
+                        <div
+                          class="space__spaceItem_nr3as"
+                        >
+                          <div
+                            class="skeleton__component_1bshy skeleton__animate_1bshy"
+                          >
+                            <img
+                              alt="Футболка с бархатными стикерами"
+                              class=""
+                              src="http://qa-games.ru/astore/public/images/61646585.png"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceContainer_nr3as space__start_nr3as"
+                      >
+                        <div
+                          class="space__spaceItem_nr3as"
+                        >
+                          <h6
+                            class="typography__component_19zgr typography__styrene-xsmall_pxbut typography__medium_pxbut"
+                          >
+                            Футболка с бархатными стикерами
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-bottom: 0px;"
+                    >
+                      <div
+                        class="space__spaceContainer_nr3as space__start_nr3as"
+                      >
+                        <div
+                          class="space__spaceItem_nr3as"
+                        >
+                          <p
+                            class="typography__paragraph_c16y5 typography__tertiary-inverted_hpb71 typography__primary-medium_c16y5 typography__bold_c16y5"
+                            data-testid="subtitle-6"
+                          >
+                            Все варианты — внутри
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                    >
+                      <div
+                        class="space__spaceContainer_nr3as space__start_nr3as"
+                      >
+                        <div
+                          class="space__spaceItem_nr3as"
+                        >
+                          <p
+                            class="typography__paragraph_c16y5 typography__primary-large_c16y5 typography__bold_c16y5"
+                            data-testid="price-6"
+                          >
+                            1799
+                             ₽
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

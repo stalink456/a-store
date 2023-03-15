@@ -1,0 +1,25 @@
+.contacts {
+  width: 1200px;
+  padding: var(--gap-3xl) var(--gap-m);
+  margin: 0 auto;
+}
+
+.contacts__title {
+  font-size: 100px;
+}
+
+.contacts__info {
+  padding: var(--gap-5xl) 0;
+}
+
+@media (max-width: 1220px) {
+  .contacts {
+    width: 100%;
+  }
+}
+
+@media (max-width: 525px) {
+  .contacts__title {
+    font-size: 50px;
+  }
+}

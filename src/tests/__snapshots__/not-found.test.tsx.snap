@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound component should render NotFound component 1`] = `
+<body>
+  <div>
+    <div
+      class="not_found"
+    >
+      <div
+        class="space__spaceContainer_nr3as space__vertical_nr3as space__center_nr3as"
+      >
+        <div
+          class="space__spaceItem_nr3as"
+          style="margin-bottom: 20px;"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as not_found__text"
+          >
+            <div
+              class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+            >
+              <h1
+                class="typography__component_19zgr typography__styrene-large_pxbut typography__medium_pxbut"
+              >
+                Извините, что-то пошло не так
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="space__spaceItem_nr3as"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__start_nr3as"
+          >
+            <div
+              class="space__spaceItem_nr3as"
+            >
+              <button
+                class="button__component_j4291 button__m_j4291 button__component_3xn9f button__secondary_3xn9f button__block_j4291"
+                type="button"
+              >
+                <span
+                  class="button__text_j4291 button__stretchText_j4291"
+                >
+                  Главная страница
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

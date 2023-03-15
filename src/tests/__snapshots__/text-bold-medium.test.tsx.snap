@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextBoldMedium component should render TextBoldMedium component 1`] = `
+<body>
+  <div>
+    <span
+      class="typography__primary-medium_c16y5 typography__bold_c16y5"
+    >
+      A-Store
+    </span>
+  </div>
+</body>
+`;

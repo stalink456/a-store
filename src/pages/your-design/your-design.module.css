@@ -1,0 +1,56 @@
+.your_design {
+  padding: 0 15px;
+}
+
+.your_design__title {
+  font-size: 100px;
+}
+
+.your_design__subtitle {
+  width: 90%;
+  line-height: 25px;
+}
+
+.your_design__footer_text {
+  margin-top: 75px;
+  width: 50%;
+  line-height: 24px;
+  font-size: 20px;
+}
+
+@media (max-width: 1065px) {
+  .your_design__title {
+    font-size: 70px;
+  }
+
+  .your_design__subtitle {
+    width: 100%;
+  }
+
+  .your_design__footer_text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 660px) {
+  .your_design__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 520px) {
+  .your_design__title {
+    font-size: 40px;
+  }
+
+  .your_design__subtitle {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .your_design__container {
+    justify-content: center;
+  }
+}

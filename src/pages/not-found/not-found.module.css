@@ -1,0 +1,29 @@
+@import "../../css/animation.css";
+
+.not_found {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  composes: opacity from global;
+}
+
+.not_found__text {
+  margin-bottom: 40px;
+
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .not_found__text h1 {
+    font-size: 25px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .not_found__text h1 {
+    width: 300px;
+    font-size: 20px;
+  }
+}

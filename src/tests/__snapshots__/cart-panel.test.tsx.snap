@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPanel component should render CartPanel component 1`] = `
+<body
+  style="padding-right: 0px; overflow: hidden;"
+>
+  <div>
+    <div
+      class="cart_panel"
+    />
+  </div>
+  <div
+    alfa-portal-container=""
+  >
+    <div
+      data-focus-guard="true"
+      style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+      tabindex="0"
+    />
+    <div
+      data-focus-lock-disabled="false"
+    >
+      <div
+        aria-hidden="true"
+        class="backdrop__backdrop_1by37 base-modal__backdrop_17r9c drawer__backdropEnter_av129 drawer__backdropEnterActive_av129"
+        style="z-index: 100;"
+      />
+      <div
+        class="base-modal__wrapper_17r9c"
+        role="dialog"
+        style="z-index: 100;"
+        tabindex="0"
+      >
+        <div
+          class="base-modal__component_17r9c drawer__component_av129 cart_panel__wrapper side-panel__s_t2ubl side-panel__hidden_t2ubl drawer__enter_av129 drawer__enterActive_av129"
+        >
+          <div
+            class="base-modal__content_17r9c"
+          >
+            <div
+              class="drawer__content_av129 side-panel__appear_1yyr2 side-panel__appearActive_1yyr2"
+            >
+              <button
+                class="button__component_j4291 button__ghost_j4291 button__s_j4291 button__component_3xn9f button__ghost_3xn9f cart_panel_close icon-button__primary_2t17d icon-button__component_2t17d"
+                type="button"
+              >
+                <span
+                  class="button__text_j4291 button__stretchText_j4291"
+                >
+                  <span
+                    class="icon-button__iconWrapper_pctl3 icon-button__s_pctl3"
+                  >
+                    <svg
+                      class="icon-button__icon_pctl3"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      version="1.1"
+                      viewBox="0 0 17 17"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g />
+                      <path
+                        d="M9.207 8.5l6.646 6.646-0.707 0.707-6.646-6.646-6.646 6.646-0.707-0.707 6.646-6.646-6.647-6.646 0.707-0.707 6.647 6.646 6.646-6.646 0.707 0.707-6.646 6.646z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as cart_panel__items"
+              >
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 12px;"
+                >
+                  <h2
+                    class="typography__component_19zgr typography__styrene-medium_pxbut typography__bold_pxbut"
+                  >
+                    Ваш заказ
+                  </h2>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 12px;"
+                >
+                  <hr
+                    class="divider__component_68ncq"
+                  />
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 12px;"
+                >
+                  <div
+                    class="cart__items"
+                  >
+                    <p
+                      class="typography__paragraph_c16y5 cart__items__empty_cart typography__primary-large_c16y5 typography__bold_c16y5"
+                    >
+                      Корзина пуста
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                >
+                  <hr
+                    class="divider__component_68ncq"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-focus-guard="true"
+      style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;

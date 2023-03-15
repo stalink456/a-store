@@ -1,0 +1,18 @@
+@import "../../../css/variables.css";
+
+.menu__links {
+  margin-top: 40px;
+  margin-bottom: auto;
+}
+
+.menu__links a {
+  padding: 0 10px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .menu__links a {
+    color: var(--black-color);
+  }
+}

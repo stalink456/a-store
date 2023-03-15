@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts component should render Contacts component 1`] = `
+<body>
+  <div>
+    <div
+      class="contacts"
+    >
+      <div
+        class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+      >
+        <div
+          class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+          style="margin-bottom: 16px;"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__start_nr3as"
+          >
+            <div
+              class="space__spaceItem_nr3as"
+            >
+              <h1
+                class="typography__component_19zgr contacts__title typography__styrene-xlarge_pxbut typography__bold_pxbut"
+              >
+                Контакты
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+          style="margin-bottom: 16px;"
+        >
+          <div
+            class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as contacts__info"
+          >
+            <div
+              class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+              style="margin-bottom: 16px;"
+            >
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+              >
+                <div
+                  class="space__spaceItem_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <span
+                    class="typography__primary-medium_c16y5 typography__bold_c16y5"
+                  >
+                    +7 906 061 60 20
+                  </span>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as"
+                >
+                  <span
+                    class="typography__primary-medium_c16y5 typography__bold_c16y5"
+                  >
+                     info@alfabankstore.ru
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+              style="margin-bottom: 16px;"
+            >
+              <span
+                class="typography__primary-medium_c16y5 typography__bold_c16y5"
+              >
+                г. Москва, пр-т Андропова, 18 корп. 3
+              </span>
+            </div>
+            <div
+              class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+              style="margin-bottom: 16px;"
+            >
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+              >
+                <div
+                  class="space__spaceItem_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <span
+                    class="typography__primary-large_c16y5 typography__bold_c16y5"
+                  >
+                    пн-чт:
+                  </span>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <span
+                    class="typography__primary-medium_c16y5 typography__bold_c16y5"
+                  >
+                    10:00—19:00
+                  </span>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as"
+                  style="margin-bottom: 0px;"
+                >
+                  <span
+                    class="typography__primary-large_c16y5 typography__bold_c16y5"
+                  >
+                    пт:
+                  </span>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as"
+                >
+                  <span
+                    class="typography__primary-medium_c16y5 typography__bold_c16y5"
+                  >
+                     10:00—17:30
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+            >
+              <span
+                class="typography__primary-medium_c16y5 typography__bold_c16y5"
+              >
+                 Принимаем к оплате карты Visa, Mastercard, МИР.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+        >
+          <div
+            class="yandex_map"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,14 @@
+@import "../../css/variables.css";
+
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  width: calc(100vw - 20px);
+}
+
+@media (max-width: 960px) {
+  .main {
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+}

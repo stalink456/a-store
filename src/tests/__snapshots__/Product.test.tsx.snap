@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product component should render Product component 1`] = `
+<body>
+  <div>
+    <div
+      class="page"
+    >
+      <div
+        class="product"
+      >
+        <div
+          class="space__spaceContainer_nr3as space__start_nr3as"
+          style="flex-wrap: wrap; margin-bottom: 0px;"
+        >
+          <div
+            class="space__spaceItem_nr3as"
+            style="margin-right: 0px; padding-bottom: 0px;"
+          >
+            <div
+              class="gallery"
+            >
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+              >
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 16px;"
+                >
+                  <div
+                    class="skeleton__component_1bshy skeleton__animate_1bshy"
+                  >
+                    <img
+                      alt="http://qa-games.ru/astore/public/images/61646585.png"
+                      class=""
+                      src="http://qa-games.ru/astore/public/images/61646585.png"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__start_nr3as"
+                    style="flex-wrap: wrap; margin-bottom: -5px;"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class="gallery_container"
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/61646585.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/61646585.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/29918301.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/29918301.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/23597101.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/23597101.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/79160052.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/79160052.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/34570797.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/34570797.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/95291281.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/95291281.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/1_3d.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/1_3d.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/2_3d.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/2_3d.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="margin-right: 5px; padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/45157942.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/45157942.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceItem_nr3as"
+                      style="padding-bottom: 5px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        <div
+                          class="space__spaceContainer_nr3as space__start_nr3as gallery__small_pictures"
+                        >
+                          <div
+                            class="space__spaceItem_nr3as"
+                          >
+                            <div
+                              class="skeleton__component_1bshy skeleton__animate_1bshy"
+                            >
+                              <img
+                                alt="http://qa-games.ru/astore/public/images/Frame_117.png"
+                                class=""
+                                src="http://qa-games.ru/astore/public/images/Frame_117.png"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="space__spaceItem_nr3as"
+            style="padding-bottom: 0px;"
+          >
+            <div
+              class="product_description"
+            >
+              <div
+                class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as space__spaceContainerFullWidth_nr3as"
+              >
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 15px;"
+                >
+                  <h1
+                    class="typography__component_19zgr typography__styrene-small_pxbut typography__medium_pxbut"
+                  >
+                    Футболка с бархатными стикерами
+                  </h1>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 15px;"
+                >
+                  <h2
+                    class="typography__component_19zgr typography__styrene-small_pxbut typography__bold_pxbut"
+                  >
+                    1799
+                     ₽
+                  </h2>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                  style="margin-bottom: 15px;"
+                >
+                  <form
+                    class="form"
+                  >
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <p
+                          class="typography__paragraph_c16y5 typography__primary-medium_c16y5"
+                        >
+                          Цвет
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      aria-haspopup="listbox"
+                      aria-owns="downshift-1-menu"
+                      class="select__component_1bbba select__block_1bbba"
+                      role="combobox"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="select__component_qhc2e"
+                      >
+                        <div
+                          class="form-control__component_e23cr form-control__component_1xedm form-control__s_e23cr form-control__block_e23cr form-control__hasRightAddons_e23cr"
+                        >
+                          <div
+                            aria-controls="downshift-1-menu"
+                            aria-labelledby="downshift-1-label"
+                            class="select__field_qhc2e form-control__inner_e23cr form-control__inner_1xedm"
+                            id="downshift-0-input"
+                            tabindex="0"
+                          >
+                            <div
+                              class="form-control__inputWrapper_e23cr"
+                            >
+                              <div
+                                class="form-control__input_e23cr"
+                              >
+                                <div
+                                  class="select__contentWrapper_qhc2e"
+                                >
+                                  <span
+                                    class="select__placeholder_qhc2e"
+                                  >
+                                    Выберите цвет
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="form-control__addons_e23cr form-control__rightAddons_e23cr"
+                            >
+                              <svg
+                                class="select__arrow_8kop9 select__arrow_qhc2e"
+                                fill="currentColor"
+                                focusable="false"
+                                height="24"
+                                role="img"
+                                viewBox="0 0 24 24"
+                                width="24"
+                              >
+                                <path
+                                  d="M12 14L6.5 8.5 5 10l7 7 7-7-1.5-1.5L12 14z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <p
+                          class="typography__paragraph_c16y5 typography__primary-medium_c16y5"
+                        >
+                          Размер
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      aria-haspopup="listbox"
+                      aria-owns="downshift-3-menu"
+                      class="select__component_1bbba select__block_1bbba"
+                      role="combobox"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="select__component_qhc2e"
+                      >
+                        <div
+                          class="form-control__component_e23cr form-control__component_1xedm form-control__s_e23cr form-control__block_e23cr form-control__hasRightAddons_e23cr"
+                        >
+                          <div
+                            aria-controls="downshift-3-menu"
+                            aria-labelledby="downshift-3-label"
+                            class="select__field_qhc2e form-control__inner_e23cr form-control__inner_1xedm"
+                            id="downshift-2-input"
+                            tabindex="0"
+                          >
+                            <div
+                              class="form-control__inputWrapper_e23cr"
+                            >
+                              <div
+                                class="form-control__input_e23cr"
+                              >
+                                <div
+                                  class="select__contentWrapper_qhc2e"
+                                >
+                                  <span
+                                    class="select__placeholder_qhc2e"
+                                  >
+                                    Выберите размер
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="form-control__addons_e23cr form-control__rightAddons_e23cr"
+                            >
+                              <svg
+                                class="select__arrow_8kop9 select__arrow_qhc2e"
+                                fill="currentColor"
+                                focusable="false"
+                                height="24"
+                                role="img"
+                                viewBox="0 0 24 24"
+                                width="24"
+                              >
+                                <path
+                                  d="M12 14L6.5 8.5 5 10l7 7 7-7-1.5-1.5L12 14z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as"
+                    >
+                      <div
+                        class="space__spaceItem_nr3as"
+                      >
+                        <p
+                          class="typography__paragraph_c16y5 typography__primary-medium_c16y5"
+                        >
+                          Номер стикера
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      aria-haspopup="listbox"
+                      aria-owns="downshift-5-menu"
+                      class="select__component_1bbba select__block_1bbba"
+                      role="combobox"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="select__component_qhc2e"
+                      >
+                        <div
+                          class="form-control__component_e23cr form-control__component_1xedm form-control__s_e23cr form-control__block_e23cr form-control__hasRightAddons_e23cr"
+                        >
+                          <div
+                            aria-controls="downshift-5-menu"
+                            aria-labelledby="downshift-5-label"
+                            class="select__field_qhc2e form-control__inner_e23cr form-control__inner_1xedm"
+                            id="downshift-4-input"
+                            tabindex="0"
+                          >
+                            <div
+                              class="form-control__inputWrapper_e23cr"
+                            >
+                              <div
+                                class="form-control__input_e23cr"
+                              >
+                                <div
+                                  class="select__contentWrapper_qhc2e"
+                                >
+                                  <span
+                                    class="select__placeholder_qhc2e"
+                                  >
+                                    Выберите номер стикера
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="form-control__addons_e23cr form-control__rightAddons_e23cr"
+                            >
+                              <svg
+                                class="select__arrow_8kop9 select__arrow_qhc2e"
+                                fill="currentColor"
+                                focusable="false"
+                                height="24"
+                                role="img"
+                                viewBox="0 0 24 24"
+                                width="24"
+                              >
+                                <path
+                                  d="M12 14L6.5 8.5 5 10l7 7 7-7-1.5-1.5L12 14z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="button__component_j4291 button__m_j4291 button__component_3xn9f button__primary_3xn9f button__block_j4291"
+                      data-testid="basket"
+                      disabled=""
+                      type="submit"
+                    >
+                      <span
+                        class="button__text_j4291 button__stretchText_j4291"
+                      >
+                        В корзину
+                      </span>
+                    </button>
+                  </form>
+                </div>
+                <div
+                  class="space__spaceItem_nr3as space__spaceItemFullWidth_nr3as"
+                >
+                  <div
+                    class="space__spaceContainer_nr3as space__vertical_nr3as space__start_nr3as product_description__text"
+                  >
+                    <div
+                      class="space__spaceItem_nr3as"
+                    >
+                      <p
+                        class="typography__paragraph_c16y5 typography__primary-small_c16y5 typography__medium_c16y5"
+                      >
+                        Выберите стикер, а мы перенесём его на ткань — как на фото. Одежду можно стирать в машинке при 30 °C, вывернув наизнанку. Гладить — с внутренней стороны. Посмотреть и потрогать все стикеры можно в A-Store на Технопарке. А ещё там можно добавить сразу несколько стикеров на одну вещь.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    alfa-portal-container=""
+  />
+</body>
+`;
