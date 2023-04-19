@@ -1,1 +1,1 @@
-export { TitleWithComponent } from "./title-with-component";
+export { TitleWithComponent } from './title-with-component';

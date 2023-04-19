@@ -1,4 +1,4 @@
-@import "../../../css/variables.css";
+@import url("../../../css/variables.css");
 
 .menu__links {
   margin-top: 40px;
@@ -7,11 +7,13 @@
 
 .menu__links a {
   padding: 0 10px;
-  color: var(--white-color);
+
   text-decoration: none;
+
+  color: var(--white-color);
 }
 
-@media (max-width: 640px) {
+@media (width <= 640px) {
   .menu__links a {
     color: var(--black-color);
   }

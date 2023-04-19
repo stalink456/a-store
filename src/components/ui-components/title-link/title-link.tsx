@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Typography } from "@alfalab/core-components/typography";
-import { TitleLinkType } from "./types";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Typography } from '@alfalab/core-components/typography';
+import { TitleLinkType } from './types';
 
 export const TitleLink: React.FC<TitleLinkType> = React.memo(
   ({ view, tag, weight, text, route, children }) => {

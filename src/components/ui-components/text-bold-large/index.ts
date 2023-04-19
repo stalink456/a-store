@@ -1,1 +1,1 @@
-export { TextBoldLarge } from "./text-bold-large";
+export { TextBoldLarge } from './text-bold-large';

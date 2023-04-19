@@ -1,24 +1,24 @@
 {
   "postorder": {
-    "address": "Ул. Ленина",
-    "comment": "",
-    "deliveryType": "Доставка по России — 350₽",
-    "email": "stas.litvin2010@gmail.com",
     "name": "Стас Литвин",
-    "paymentType": "Банковская карта",
+    "email": "stas.litvin2010@gmail.com",
     "phone": "+7 (892) 675-92-24",
+    "address": "Ул. Ленина",
+    "deliveryType": "Доставка по России — 350₽",
     "promocode": "1234",
     "isAgree": true,
+    "comment": "",
+    "paymentType": "Банковская карта",
     "products": [
       {
-        "color": null,
-        "totalCount": 1,
-        "id": "1",
+        "id": 1,
+        "title": "Футболка с бархатными стикерами",
         "preview": "http://qa-games.ru/astore/public/images/61646585.png",
         "price": 1799,
         "size": null,
+        "color": null,
         "stickerName": null,
-        "title": "Футболка с бархатными стикерами",
+        "totalCount": 1,
         "totalPrice": 1799
       }
     ]

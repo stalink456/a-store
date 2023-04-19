@@ -1,10 +1,12 @@
 .order__header {
-  padding: var(--gap-xs);
   position: sticky;
-  top: 0;
   z-index: 1;
+  top: 0;
+
+  padding: var(--gap-xs);
+
+  border-bottom: 1px solid rgb(155 153 153);
   background-color: white;
-  border-bottom: 1px solid rgb(155, 153, 153);
 }
 
 .order__header svg {
@@ -14,26 +16,28 @@
 .order__header > div:nth-child(1) {
   text-align: start;
 }
+
 .order__header > div:nth-child(2) {
   text-align: center;
 }
+
 .order__header > div:nth-child(3) {
   text-align: end;
 }
 
-@media (max-width: 550px) {
+@media (width <= 550px) {
   .order__header h3 {
     font-size: 25px;
   }
 }
 
-@media (max-width: 410px) {
+@media (width <= 410px) {
   .order__header h3 {
     font-size: 20px;
   }
 }
 
-@media (max-width: 327px) {
+@media (width <= 327px) {
   .order__header h3 {
     font-size: 18px;
   }

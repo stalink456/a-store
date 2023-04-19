@@ -1,4 +1,4 @@
-import { GroupsType } from "store/types";
+import { GroupsType } from 'store/types';
 
 export type GroupsCardType = {
   items: GroupsType[];

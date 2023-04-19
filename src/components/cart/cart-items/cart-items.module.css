@@ -1,9 +1,10 @@
-@import "../../../css/variables.css";
+@import url("../../../css/variables.css");
 
 .cart__items__item {
-  padding: 10px 0px;
   display: flex;
   justify-content: space-between;
+
+  padding: 10px 0;
 }
 
 .item__counter__buttons {
@@ -21,16 +22,18 @@
 }
 
 .cart__items__item img {
-  height: 70px;
   width: 70px;
+  height: 70px;
+
+  border-radius: 5px;
   object-fit: cover;
   object-position: top 20%;
-  border-radius: 5px;
 }
 
 .item__counter__buttons_button span {
   width: 25px;
 }
+
 .item__counter__buttons_button,
 .item__counter__buttons_button svg {
   width: 25px;
@@ -50,8 +53,10 @@
 
 .item__counter__buttons__text_count input {
   width: 20px;
-  padding: 0px;
+  padding: 0;
+
   text-align: center;
+
   background-color: var(--white-color);
 }
 
@@ -62,15 +67,17 @@
 .item__text_price {
   width: 80px;
   margin: 0;
+
   text-align: center;
 }
 
 .cart__items__empty_cart {
-  font-size: 24px;
   margin: 10px 0;
+
+  font-size: 24px;
 }
 
-@media (max-width: 620px) {
+@media (width <= 620px) {
   .cart__items__item {
     position: relative;
   }
@@ -82,9 +89,9 @@
   }
 
   .cart__items__item {
+    align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
   }
 
   .item__counter__buttons_cross svg {
@@ -92,7 +99,7 @@
   }
 }
 
-@media (max-width: 395px) {
+@media (width <= 395px) {
   .item__counter__buttons_cross {
     right: -10px;
   }

@@ -1,19 +1,19 @@
-import { MemoryRouter } from "react-router-dom";
-import { waitFor } from "@testing-library/react";
-import { fireEvent, render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom";
-import { DescriptionWithForm } from "components/description-with-from";
-import * as product from "./mocks/get-product-200.json";
+import { MemoryRouter } from 'react-router-dom';
+import { waitFor } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { DescriptionWithForm } from 'components/description-with-from';
+import * as product from './mocks/get-product-200.json';
 
-const mockedProduct = product["product"];
+const mockedProduct = product['product'];
 
-jest.mock("react-redux", () => ({
+jest.mock('react-redux', () => ({
   useDispatch: jest.fn(),
   useSelector: jest.fn(),
 }));
 
-describe("Description component", () => {
-  it("should render Description component", () => {
+describe('Description component', () => {
+  it('should render Description component', () => {
     const { baseElement } = render(<DescriptionWithForm {...mockedProduct} />, {
       wrapper: MemoryRouter,
     });
@@ -21,83 +21,83 @@ describe("Description component", () => {
     expect(baseElement).toMatchSnapshot();
   });
 
-  it("should render Description component with title", async () => {
+  it('should render Description component with title', async () => {
     render(<DescriptionWithForm {...mockedProduct} />, {
       wrapper: MemoryRouter,
     });
 
-    const result = await screen.findByText("Футболка с бархатными стикерами");
+    const result = await screen.findByText('Футболка с бархатными стикерами');
     expect(result).toBeInTheDocument();
   });
 
-  it("should render Description component with select color", async () => {
+  it('should render Description component with select color', async () => {
     render(<DescriptionWithForm {...mockedProduct} />, {
       wrapper: MemoryRouter,
     });
 
     await waitFor(() =>
-      expect(screen.queryByText("red")).not.toBeInTheDocument()
+      expect(screen.queryByText('red')).not.toBeInTheDocument()
     );
 
-    fireEvent.click(screen.getByText("Выберите цвет"));
-    fireEvent.click(screen.getByText("красный"));
+    fireEvent.click(screen.getByText('Выберите цвет'));
+    fireEvent.click(screen.getByText('красный'));
 
     await waitFor(async () =>
-      expect(await screen.findByText("красный")).toBeInTheDocument()
+      expect(await screen.findByText('красный')).toBeInTheDocument()
     );
   });
 
-  it("should render Description component with select size", async () => {
+  it('should render Description component with select size', async () => {
     render(<DescriptionWithForm {...mockedProduct} />, {
       wrapper: MemoryRouter,
     });
 
     await waitFor(() =>
-      expect(screen.queryByText("XS")).not.toBeInTheDocument()
+      expect(screen.queryByText('XS')).not.toBeInTheDocument()
     );
 
-    fireEvent.click(screen.getByText("Выберите размер"));
-    fireEvent.click(screen.getByText("XS"));
+    fireEvent.click(screen.getByText('Выберите размер'));
+    fireEvent.click(screen.getByText('XS'));
 
     await waitFor(async () =>
-      expect(await screen.findByText("XS")).toBeInTheDocument()
+      expect(await screen.findByText('XS')).toBeInTheDocument()
     );
   });
 
-  it("should render Description component with select stickerNumber", async () => {
+  it('should render Description component with select stickerNumber', async () => {
     render(<DescriptionWithForm {...mockedProduct} />, {
       wrapper: MemoryRouter,
     });
 
     await waitFor(() =>
-      expect(screen.queryByText("1")).not.toBeInTheDocument()
+      expect(screen.queryByText('1')).not.toBeInTheDocument()
     );
 
-    fireEvent.click(screen.getByText("Выберите номер стикера"));
-    fireEvent.click(screen.getByText("1"));
+    fireEvent.click(screen.getByText('Выберите номер стикера'));
+    fireEvent.click(screen.getByText('1'));
 
     await waitFor(async () =>
-      expect(await screen.findByText("1")).toBeInTheDocument()
+      expect(await screen.findByText('1')).toBeInTheDocument()
     );
   });
 
-  it("should render Description component with enabled button", async () => {
+  it('should render Description component with enabled button', async () => {
     render(<DescriptionWithForm {...mockedProduct} />, {
       wrapper: MemoryRouter,
     });
-    await waitFor(() => expect(screen.getByTestId("basket")).toBeDisabled());
+    await waitFor(() => expect(screen.getByTestId('basket')).toBeDisabled());
 
-    fireEvent.click(screen.getByText("Выберите цвет"));
-    fireEvent.click(screen.getByText("красный"));
+    fireEvent.click(screen.getByText('Выберите цвет'));
+    fireEvent.click(screen.getByText('красный'));
 
-    fireEvent.click(screen.getByText("Выберите размер"));
-    fireEvent.click(screen.getByText("XS"));
+    fireEvent.click(screen.getByText('Выберите размер'));
+    fireEvent.click(screen.getByText('XS'));
 
-    fireEvent.click(screen.getByText("Выберите номер стикера"));
-    fireEvent.click(screen.getByText("1"));
+    fireEvent.click(screen.getByText('Выберите номер стикера'));
+    fireEvent.click(screen.getByText('1'));
 
     await waitFor(() =>
-      expect(screen.getByTestId("basket")).not.toBeDisabled()
+      expect(screen.getByTestId('basket')).not.toBeDisabled()
     );
   });
 
@@ -106,7 +106,7 @@ describe("Description component", () => {
       wrapper: MemoryRouter,
     });
 
-    const result = screen.queryByText("non-existent title");
+    const result = screen.queryByText('non-existent title');
     await waitFor(() => expect(result).not.toBeInTheDocument());
   });
 
@@ -115,10 +115,10 @@ describe("Description component", () => {
       wrapper: MemoryRouter,
     });
 
-    fireEvent.click(screen.queryByText("Выберите цвет") as HTMLElement);
+    fireEvent.click(screen.queryByText('Выберите цвет') as HTMLElement);
 
     await waitFor(() =>
-      expect(screen.queryByText("orange")).not.toBeInTheDocument()
+      expect(screen.queryByText('orange')).not.toBeInTheDocument()
     );
   });
 });

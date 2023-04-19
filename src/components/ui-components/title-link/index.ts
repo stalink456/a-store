@@ -1,1 +1,1 @@
-export { TitleLink } from "./title-link";
+export { TitleLink } from './title-link';

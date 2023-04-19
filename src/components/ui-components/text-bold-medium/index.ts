@@ -1,1 +1,1 @@
-export { TextBoldMedium } from "./text-bold-medium";
+export { TextBoldMedium } from './text-bold-medium';

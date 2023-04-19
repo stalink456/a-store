@@ -14,6 +14,8 @@
 8. React lazy laoding
 9. Lazy loading image
 10. Адаптивная верстка
+11. Webpack
+12. ESLint
 
 ## Запуск проекта
 

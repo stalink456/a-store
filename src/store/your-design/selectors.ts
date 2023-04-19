@@ -1,4 +1,4 @@
-import { ApplicationState } from "..";
+import { ApplicationState } from '..';
 
 export const yourDesignSelector = (state: ApplicationState) => state.yourDesign;
 

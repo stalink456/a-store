@@ -1,12 +1,12 @@
-import React from "react";
-import { useAppDispatch, useAppSelector } from "store";
+import React from 'react';
+import { useAppDispatch, useAppSelector } from 'store';
 import {
   cartActions,
   cartItemsLengthSelector,
   cartItemsSelector,
   cartTotalPriceSelector,
-} from "store/cart";
-import { calculateTotalCount } from "utils/cart";
+} from 'store/cart';
+import { calculateTotalCount } from 'utils/cart';
 
 export const useCart = () => {
   const dispatch = useAppDispatch();
@@ -27,7 +27,7 @@ export const useCart = () => {
 
   const onClickRemove = (id: string) => {
     if (
-      window.confirm("Вы действительно хотите удалить данный товар из корзины?")
+      window.confirm('Вы действительно хотите удалить данный товар из корзины?')
     ) {
       dispatch(cartActions.removeItem(id));
     }
@@ -46,7 +46,7 @@ export const useCart = () => {
 
   React.useEffect(() => {
     const json = JSON.stringify(cartItems);
-    localStorage.setItem("cart", json);
+    localStorage.setItem('cart', json);
   }, [cartItems]);
 
   return {

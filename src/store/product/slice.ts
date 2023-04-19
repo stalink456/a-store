@@ -1,5 +1,5 @@
-import { CaseReducer, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ProductsType, ProductsTypeInititalState } from "store/types";
+import { CaseReducer, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { ProductsType, ProductsTypeInititalState } from 'store/types';
 
 const initialState: ProductsTypeInititalState = {
   items: {} as ProductsType,
@@ -7,7 +7,7 @@ const initialState: ProductsTypeInititalState = {
   hasError: false,
 };
 
-const NAME = "product";
+const NAME = 'product';
 
 const request: CaseReducer<ProductsTypeInititalState, PayloadAction<number>> = (
   state

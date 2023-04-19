@@ -1,1 +1,1 @@
-export { DescriptionWithForm } from "./description-with-form";
+export { DescriptionWithForm } from './description-with-form';

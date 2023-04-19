@@ -1,7 +1,7 @@
-import { OptionShape } from "@alfalab/core-components/select";
+import { OptionShape } from '@alfalab/core-components/select';
 
 export type OptionsTypes = Record<
-  "colors" | "sizes" | "stickerNumbers",
+  'colors' | 'sizes' | 'stickerNumbers',
   OptionShape
 > | null;
 

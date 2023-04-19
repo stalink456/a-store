@@ -1,26 +1,29 @@
-@import "../../css/variables.css";
-@import "../../css/animation.css";
+@import url("../../css/variables.css");
+@import url("../../css/animation.css");
 
 .products_card {
   position: relative;
+
   width: 340px;
-  padding-bottom: 75px;
-  padding: 0 7px;
   margin-top: 20px;
+  padding: 0 7px;
+  padding-bottom: 75px;
   composes: slide_right from global;
 }
 
 .products_card p {
   margin-bottom: 5px;
 }
+
 .products_card a {
-  color: inherit;
   text-decoration: inherit;
+
+  color: inherit;
 }
 
 .products_card img {
-  max-height: 350px;
   max-width: 100%;
+  max-height: 350px;
   object-fit: cover;
   object-position: top 20%;
 }
@@ -29,17 +32,18 @@
   filter: brightness(80%);
 }
 
-@media (max-width: 1065px) {
+@media (width <= 1065px) {
   .products_card {
     width: 305px;
     margin-top: 20px;
   }
+
   .products_card img {
     max-width: 100%;
   }
 }
 
-@media (max-width: 660px) {
+@media (width <= 660px) {
   .products_card {
     width: 235px;
   }
@@ -53,13 +57,13 @@
   }
 }
 
-@media (max-width: 520px) {
+@media (width <= 520px) {
   .products_card {
     width: 210px;
   }
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .products_card {
     width: 370px;
     padding: 0;

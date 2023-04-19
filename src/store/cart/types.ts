@@ -1,4 +1,4 @@
-import { CartType } from "types";
+import { CartType } from 'types';
 
 export type CartTypeInitialState = {
   items: CartType[];

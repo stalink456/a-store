@@ -1,5 +1,5 @@
-import { CaseReducer, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { MadeInAlfaInitialStateType, ProductsType } from "store/types";
+import { CaseReducer, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { MadeInAlfaInitialStateType, ProductsType } from 'store/types';
 
 const initialState: MadeInAlfaInitialStateType = {
   products: [],
@@ -7,7 +7,7 @@ const initialState: MadeInAlfaInitialStateType = {
   hasError: false,
 };
 
-const NAME = "made-in-alfa";
+const NAME = 'made-in-alfa';
 
 const request: CaseReducer<MadeInAlfaInitialStateType> = (state) => {
   state.isLoading = true;

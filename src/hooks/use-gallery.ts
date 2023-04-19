@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const useGallery = (images: string[]) => {
   const [sliderImage, setSliderImage] = React.useState<string>(images[0]);

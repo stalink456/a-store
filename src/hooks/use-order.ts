@@ -1,23 +1,23 @@
-import React from "react";
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import { useAppDispatch, useAppSelector } from "store";
+import React from 'react';
+import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { useAppDispatch, useAppSelector } from 'store';
 import {
   cartItemsLengthSelector,
   cartItemsSelector,
   cartTotalPriceSelector,
-} from "store/cart";
+} from 'store/cart';
 import {
   orderActions,
   orderDeliverySelector,
   orderIsShowingSelector,
   orderItemsSelector,
   orderLoadingSelector,
-} from "store/order";
-import { getDeliveryPrice, prepareItemsToSend } from "utils/order";
-import { FormValues } from "types";
-import { DeliveryType } from "store/order/types";
-import { schema } from "../constants";
+} from 'store/order';
+import { getDeliveryPrice, prepareItemsToSend } from 'utils/order';
+import { FormValues } from 'types';
+import { DeliveryType } from 'store/order/types';
+import { schema } from '../constants';
 
 export const useOrder = () => {
   const dispatch = useAppDispatch();

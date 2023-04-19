@@ -1,1 +1,1 @@
-export { MadeInAlfa as default } from "./made-in-alfa";
+export { MadeInAlfa as default } from './made-in-alfa';

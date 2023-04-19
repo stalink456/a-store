@@ -7,19 +7,19 @@
   margin-top: 50px;
 }
 
-@media (max-width: 1135px) {
+@media (width <= 1135px) {
   .product_description {
     width: 400px;
   }
 }
 
-@media (max-width: 1065px) {
+@media (width <= 1065px) {
   .product_description {
     width: 640px;
   }
 }
 
-@media (max-width: 660px) {
+@media (width <= 660px) {
   .product_description {
     width: 100%;
   }

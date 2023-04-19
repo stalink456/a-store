@@ -1,8 +1,9 @@
-@import "../../../css/variables.css";
-@import "../../../css/animation.css";
+@import url("../../../css/variables.css");
+@import url("../../../css/animation.css");
 
 .main__picture {
   position: relative;
+
   transition: all 0.5s;
   composes: opacity from global;
 }
@@ -16,20 +17,22 @@
 
 .main__picture h1 {
   position: absolute;
+  z-index: 1;
   top: 20px;
   left: 20px;
+
   color: var(--black-color);
-  z-index: 1;
 }
 
 .main__picture:hover {
   filter: brightness(80%);
 }
 
-@media (max-width: 960px) {
+@media (width <= 960px) {
   .main__picture h1 {
     top: 10px;
     left: 10px;
+
     font-size: 28px;
   }
 

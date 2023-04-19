@@ -1,10 +1,10 @@
-import React from "react";
-import { useAppDispatch, useAppSelector } from "store";
+import React from 'react';
+import { useAppDispatch, useAppSelector } from 'store';
 import {
   madeInAlfaActions,
   madeInAlfaIsLoadingSelector,
   madeInAlfaProductsSelector,
-} from "store/made-in-alfa";
+} from 'store/made-in-alfa';
 
 export const useMadeInAlfa = () => {
   const dispatch = useAppDispatch();

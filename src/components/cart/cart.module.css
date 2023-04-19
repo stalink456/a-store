@@ -1,59 +1,71 @@
-@import "../../css/variables.css";
-@import "../../css/animation.css";
+@import url("../../css/variables.css");
+@import url("../../css/animation.css");
 
 .cart__wrapper {
   position: fixed;
+  z-index: 1;
   top: 100px;
   right: 20px;
+
   border-radius: 50px;
   background-color: var(--logo-color);
   composes: fade_scale from global;
-  z-index: 1;
 }
 
 .cart__icon {
-  color: var(--white-color);
-  font-size: 54px;
   padding: 20px;
+
+  color: var(--white-color);
+
+  font-size: 54px;
 }
 
 .cart__icon_text {
   position: absolute;
-  width: 35px;
-  text-align: center;
-  color: var(--white-color);
-  background-color: var(--black-color);
-  border-radius: 25px;
-  padding: 5px;
   top: 70%;
   right: 0;
+
+  width: 35px;
+  padding: 5px;
+
+  text-align: center;
+
+  color: var(--white-color);
+  border-radius: 25px;
+  background-color: var(--black-color);
 }
 
 .cart__icon_tooltip {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   top: 25%;
   right: 60%;
+
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+
   width: 120px;
   height: 40px;
-  background-color: var(--black-color);
-  color: var(--white-color);
-  transform: translate(-50%);
-  border-radius: 10px;
-  visibility: hidden;
-  opacity: 0;
+
   transition: opacity 1s ease-in-out;
+  transform: translate(-50%);
+
+  opacity: 0;
+  color: var(--white-color);
+  border-radius: 10px;
+  background-color: var(--black-color);
   composes: tooltip_visible from global;
 }
 
 .cart__icon_tooltip::before {
-  content: "";
   position: absolute;
-  left: 110%;
   top: 50%;
+  left: 110%;
+
+  content: "";
   transform: translate(-50%, -50%);
+
   border: 15px solid;
   border-color: var(--border-color) var(--border-color) var(--border-color)
     var(--black-color);
@@ -65,6 +77,7 @@
 
 .cart__wrapper:hover .cart__icon_tooltip {
   visibility: visible;
+
   opacity: 1;
 }
 
@@ -72,23 +85,25 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 960px) {
+@media (width <= 960px) {
   .cart__wrapper {
     top: 80vh;
   }
 }
 
-@media (max-width: 640px) {
+@media (width <= 640px) {
   .cart__icon {
-    font-size: 40px;
     padding: 10px;
+
+    font-size: 40px;
   }
 
   .cart__icon_text {
+    top: 60%;
+    left: 60%;
+
     width: 30px;
     padding: 3px;
-    left: 60%;
-    top: 60%;
   }
 
   .cart__icon_tooltip {

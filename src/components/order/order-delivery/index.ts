@@ -1,1 +1,1 @@
-export { OrderDelivery } from "./order-delivery";
+export { OrderDelivery } from './order-delivery';

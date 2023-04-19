@@ -1,14 +1,14 @@
-import { OptionShape } from "@alfalab/core-components/select";
-import { OptionsTypes } from "components/description-with-from/types";
+import { OptionShape } from '@alfalab/core-components/select';
+import { OptionsTypes } from 'components/description-with-from/types';
 
-type RuWordsType = Record<"white" | "black" | "red" | "green" | "gray", string>;
+type RuWordsType = Record<'white' | 'black' | 'red' | 'green' | 'gray', string>;
 
 const ruWords: RuWordsType = {
-  white: "белый",
-  black: "черный",
-  red: "красный",
-  green: "зеленый",
-  gray: "серый",
+  white: 'белый',
+  black: 'черный',
+  red: 'красный',
+  green: 'зеленый',
+  gray: 'серый',
 };
 
 export const translateFromEnToRu = (str: string) => {
@@ -17,7 +17,7 @@ export const translateFromEnToRu = (str: string) => {
 };
 
 export const isDefineOptionValue = (value: OptionShape) => {
-  return value !== undefined ? value : "";
+  return value !== undefined ? value : '';
 };
 
 export const isDisabledButton = (

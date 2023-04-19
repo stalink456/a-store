@@ -1,7 +1,7 @@
-import { call, put, takeLatest } from "redux-saga/effects";
-import { getProducts } from "api/made-in-alfa/get-products";
-import { ProductsType } from "store/types";
-import { madeInAlfaActions } from ".";
+import { call, put, takeLatest } from 'redux-saga/effects';
+import { getProducts } from 'api/made-in-alfa/get-products';
+import { ProductsType } from 'store/types';
+import { madeInAlfaActions } from '.';
 
 function* getMadeInAlfaSaga() {
   try {

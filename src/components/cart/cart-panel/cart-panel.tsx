@@ -1,18 +1,18 @@
-import React, { forwardRef } from "react";
-import { SidePanelResponsive } from "@alfalab/core-components/side-panel";
-import { Space } from "@alfalab/core-components/space";
-import { Typography } from "@alfalab/core-components/typography";
-import { IconButton } from "@alfalab/core-components/icon-button";
-import { TfiClose } from "react-icons/tfi";
-import { Divider } from "@alfalab/core-components/divider";
-import { CartItems } from "../cart-items";
-import { SidePanelType } from "types";
-import { useCart } from "hooks/use-cart";
-import { Button } from "@alfalab/core-components/button";
-import { orderActions } from "store/order";
-import { useAppDispatch } from "store";
+import React, { forwardRef } from 'react';
+import { SidePanelResponsive } from '@alfalab/core-components/side-panel';
+import { Space } from '@alfalab/core-components/space';
+import { Typography } from '@alfalab/core-components/typography';
+import { IconButton } from '@alfalab/core-components/icon-button';
+import { TfiClose } from 'react-icons/tfi';
+import { Divider } from '@alfalab/core-components/divider';
+import { CartItems } from '../cart-items';
+import { SidePanelType } from 'types';
+import { useCart } from 'hooks/use-cart';
+import { Button } from '@alfalab/core-components/button';
+import { orderActions } from 'store/order';
+import { useAppDispatch } from 'store';
 
-import styles from "./cart-panel.module.css";
+import styles from './cart-panel.module.css';
 
 export const CartPanel = forwardRef<HTMLDivElement, SidePanelType>(
   ({ open, handleOpenMenu }, ref) => {
@@ -28,9 +28,9 @@ export const CartPanel = forwardRef<HTMLDivElement, SidePanelType>(
       return cartTotalPrice ? (
         <Typography.Text
           className={styles.items__total_price}
-          tag="p"
-          weight="bold"
-          view="primary-large"
+          tag='p'
+          weight='bold'
+          view='primary-large'
         >
           Сумма: {cartTotalPrice} ₽
         </Typography.Text>
@@ -42,7 +42,7 @@ export const CartPanel = forwardRef<HTMLDivElement, SidePanelType>(
         <Button
           className={styles.cart_panel__button_next}
           block
-          view="primary"
+          view='primary'
           onClick={handleOpenOrder}
         >
           Дальше
@@ -56,16 +56,16 @@ export const CartPanel = forwardRef<HTMLDivElement, SidePanelType>(
           <IconButton
             className={styles.cart_panel_close}
             icon={TfiClose}
-            size="s"
+            size='s'
           />
 
           <Space
-            direction="vertical"
+            direction='vertical'
             ref={ref}
             className={styles.cart_panel__items}
             fullWidth
           >
-            <Typography.Title tag="h2" view="medium" weight="bold">
+            <Typography.Title tag='h2' view='medium' weight='bold'>
               Ваш заказ
             </Typography.Title>
             <Divider />

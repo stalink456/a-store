@@ -1,4 +1,4 @@
-import { ApplicationState } from "..";
+import { ApplicationState } from '..';
 
 export const cartSelector = (state: ApplicationState) => state.cart;
 

@@ -16,22 +16,22 @@ export type SidePanelType = {
 };
 
 export type DeliveryType =
-  | "Доставка по России — 350₽"
-  | "Курьером по Москве — 300₽"
-  | "Самовывоз (пр-т Андропова, 18 корп. 3)";
+  | 'Доставка по России — 350₽'
+  | 'Курьером по Москве — 300₽'
+  | 'Самовывоз (пр-т Андропова, 18 корп. 3)';
 
-type PaymentType = "Банковская карта" | "Промокод";
+type PaymentType = 'Банковская карта' | 'Промокод';
 
 export type FormValues = {
   name: string;
   email: string;
   phone: string;
   address: string;
-  deliveryType: DeliveryType | null;
+  deliveryType: DeliveryType | null | string;
   promocode: string;
   isAgree: boolean;
   comment: string;
-  paymentType: PaymentType | null;
+  paymentType: PaymentType | null | string;
 };
 
 export type OrderTypeProducts = {

@@ -1,7 +1,7 @@
 import {
   BaseSelectChangePayload,
   OptionShape,
-} from "@alfalab/core-components/select";
+} from '@alfalab/core-components/select';
 
 export type ProductSelectType = {
   text: string;

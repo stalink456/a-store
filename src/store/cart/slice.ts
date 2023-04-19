@@ -1,7 +1,7 @@
-import { CaseReducer, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { calcTotalPrice, generateID, getCartFromLS } from "utils/cart";
-import { CartTypeInitialState, SetCartItemCountType } from "./types";
-import { CartType } from "types";
+import { CaseReducer, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { calcTotalPrice, generateID, getCartFromLS } from 'utils/cart';
+import { CartTypeInitialState, SetCartItemCountType } from './types';
+import { CartType } from 'types';
 
 const { items, cartTotalPrice } = getCartFromLS();
 
@@ -10,7 +10,7 @@ const initialState: CartTypeInitialState = {
   cartTotalPrice,
 };
 
-const NAME = "cart";
+const NAME = 'cart';
 
 const addItem: CaseReducer<CartTypeInitialState, PayloadAction<CartType>> = (
   state,

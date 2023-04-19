@@ -1,1 +1,1 @@
-export { TitleWithSelect } from "./title-with-select";
+export { TitleWithSelect } from './title-with-select';

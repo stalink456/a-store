@@ -1,5 +1,5 @@
-@import "../../../css/variables.css";
-@import "../../../css/animation.css";
+@import url("../../../css/variables.css");
+@import url("../../../css/animation.css");
 
 img {
   width: 400px;

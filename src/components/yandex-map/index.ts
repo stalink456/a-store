@@ -1,1 +1,1 @@
-export { YandexMap } from "./yandex-map";
+export { YandexMap } from './yandex-map';

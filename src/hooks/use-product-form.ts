@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import {
   BaseSelectChangePayload,
   OptionShape,
-} from "@alfalab/core-components/select";
-import { OptionsTypes } from "components/description-with-from/types";
-import { useAppDispatch } from "store";
-import { cartActions } from "store/cart";
-import { defineParam } from "utils/products";
+} from '@alfalab/core-components/select';
+import { OptionsTypes } from 'components/description-with-from/types';
+import { useAppDispatch } from 'store';
+import { cartActions } from 'store/cart';
+import { defineParam } from 'utils/products';
 
 type useProductFormType = {
   id: number;

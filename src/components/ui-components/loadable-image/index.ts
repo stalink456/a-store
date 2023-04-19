@@ -1,1 +1,1 @@
-export { LoadableImage } from "./loadable-image";
+export { LoadableImage } from './loadable-image';

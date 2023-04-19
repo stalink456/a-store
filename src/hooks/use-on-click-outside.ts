@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
 export const useOnClickOutSide = (
   ref: React.RefObject<HTMLElement>,
@@ -12,10 +12,10 @@ export const useOnClickOutSide = (
       handler(event);
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [ref, handler]);
 };

@@ -1,11 +1,11 @@
-import { configureStore } from "@reduxjs/toolkit";
-import createSagaMiddleware from "redux-saga";
-import { madeInAlfaReducer } from "store/made-in-alfa";
-import { yourDesignReducer } from "store/your-design";
-import { productReducer } from "store/product";
-import { cartReducer } from "store/cart";
-import { orderReducer } from "store/order";
-import { rootSaga } from "../store/root-saga";
+import { configureStore } from '@reduxjs/toolkit';
+import createSagaMiddleware from 'redux-saga';
+import { madeInAlfaReducer } from 'store/made-in-alfa';
+import { yourDesignReducer } from 'store/your-design';
+import { productReducer } from 'store/product';
+import { cartReducer } from 'store/cart';
+import { orderReducer } from 'store/order';
+import { rootSaga } from '../store/root-saga';
 
 const sagaMiddleware = createSagaMiddleware();
 const middlewares = [sagaMiddleware];

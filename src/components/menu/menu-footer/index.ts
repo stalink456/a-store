@@ -1,1 +1,1 @@
-export { MenuFooter } from "./menu-footer";
+export { MenuFooter } from './menu-footer';

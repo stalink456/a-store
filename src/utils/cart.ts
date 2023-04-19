@@ -1,4 +1,4 @@
-import { CartType } from "types";
+import { CartType } from 'types';
 
 export const calcTotalPrice = (items: CartType[]) => {
   return items.reduce((sum, obj) => {
@@ -7,7 +7,7 @@ export const calcTotalPrice = (items: CartType[]) => {
 };
 
 export const getCartFromLS = () => {
-  const data = localStorage.getItem("cart");
+  const data = localStorage.getItem('cart');
   const items: CartType[] = data ? JSON.parse(data) : [];
   const cartTotalPrice = calcTotalPrice(items);
 
@@ -26,5 +26,5 @@ export const generateID = (
   size: string | null,
   stickerName: string | null
 ) => {
-  return [color, size, stickerName].filter((value) => value !== null).join("");
+  return [color, size, stickerName].filter((value) => value !== null).join('');
 };

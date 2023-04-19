@@ -1,11 +1,11 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import { useAppDispatch, useAppSelector } from "store";
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import { useAppDispatch, useAppSelector } from 'store';
 import {
   productActions,
   productIsLoadingSelector,
   productItemsSelector,
-} from "store/product";
+} from 'store/product';
 
 export const useProduct = () => {
   const params = useParams();

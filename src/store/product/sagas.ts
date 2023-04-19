@@ -1,8 +1,8 @@
-import { PayloadAction } from "@reduxjs/toolkit";
-import { call, put, takeLatest } from "redux-saga/effects";
-import { getProduct } from "api/product/get-product";
-import { ProductsType } from "store/types";
-import { productActions } from "./slice";
+import { PayloadAction } from '@reduxjs/toolkit';
+import { call, put, takeLatest } from 'redux-saga/effects';
+import { getProduct } from 'api/product/get-product';
+import { ProductsType } from 'store/types';
+import { productActions } from './slice';
 
 function* productSaga(props: PayloadAction<number>) {
   try {

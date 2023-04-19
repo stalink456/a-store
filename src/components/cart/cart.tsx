@@ -1,13 +1,13 @@
-import React from "react";
-import { IconButton } from "@alfalab/core-components/icon-button";
-import { AiOutlineShopping } from "react-icons/ai";
-import { Typography } from "@alfalab/core-components/typography";
-import { Space } from "@alfalab/core-components/space";
-import { useSidePanel } from "hooks/use-side-panel";
-import { CartPanel } from "./cart-panel/cart-panel";
-import { useCart } from "hooks/use-cart";
+import React from 'react';
+import { IconButton } from '@alfalab/core-components/icon-button';
+import { AiOutlineShopping } from 'react-icons/ai';
+import { Typography } from '@alfalab/core-components/typography';
+import { Space } from '@alfalab/core-components/space';
+import { useSidePanel } from 'hooks/use-side-panel';
+import { CartPanel } from './cart-panel/cart-panel';
+import { useCart } from 'hooks/use-cart';
 
-import styles from "./cart.module.css";
+import styles from './cart.module.css';
 
 export const Cart: React.FC = React.memo(() => {
   const { cartItemsLength, totalCount, cartTotalPrice, cartRef } = useCart();
@@ -19,19 +19,19 @@ export const Cart: React.FC = React.memo(() => {
         <IconButton
           className={styles.cart__icon}
           icon={AiOutlineShopping}
-          size="s"
+          size='s'
           onClick={handleOpenMenu}
-          data-testid="cart-icon"
+          data-testid='cart-icon'
         />
-        <Typography.Text className={styles.cart__icon_text} tag="p">
+        <Typography.Text className={styles.cart__icon_text} tag='p'>
           {totalCount}
         </Typography.Text>
         <Space className={styles.cart__icon_tooltip}>
           <Typography.Text
             className={styles.cart__icon_tooltip__text}
-            tag="p"
-            weight="bold"
-            view="primary-large"
+            tag='p'
+            weight='bold'
+            view='primary-large'
           >
             = {cartTotalPrice} ₽
           </Typography.Text>

@@ -1,11 +1,13 @@
-@import "../../css/variables.css";
+@import url("../../css/variables.css");
 
 .groups__card_title h1 {
-  font-size: 115px;
-  color: var(--logo-color);
   width: 80%;
-  line-height: 90px;
   padding-top: 75px;
+
+  color: var(--logo-color);
+
+  font-size: 115px;
+  line-height: 90px;
 }
 
 .groups__card_sub_title h6 {
@@ -13,7 +15,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1065px) {
+@media (width <= 1065px) {
   .groups__card_title h1 {
     font-size: 70px;
     line-height: 60px;
@@ -24,24 +26,25 @@
   }
 }
 
-@media (max-width: 660px) {
+@media (width <= 660px) {
   .groups__card_title h1 {
     font-size: 55px;
     line-height: 50px;
   }
 }
 
-@media (max-width: 520px) {
+@media (width <= 520px) {
   .groups__card_title h1 {
     font-size: 45px;
     line-height: 40px;
   }
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .groups__card_title h1 {
+    padding-top: 30px;
+
     font-size: 40px;
     line-height: 40px;
-    padding-top: 30px;
   }
 }

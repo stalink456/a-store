@@ -1,4 +1,4 @@
-import { ApplicationState } from "..";
+import { ApplicationState } from '..';
 
 export const productSelector = (state: ApplicationState) => state.product;
 

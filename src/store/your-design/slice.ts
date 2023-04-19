@@ -1,5 +1,5 @@
-import { CaseReducer, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { GroupsType, YourDesignInitialStateType } from "store/types";
+import { CaseReducer, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { GroupsType, YourDesignInitialStateType } from 'store/types';
 
 const initialState: YourDesignInitialStateType = {
   groups: [],
@@ -7,7 +7,7 @@ const initialState: YourDesignInitialStateType = {
   hasError: false,
 };
 
-const NAME = "your-design";
+const NAME = 'your-design';
 
 const request: CaseReducer<YourDesignInitialStateType> = (state) => {
   state.isLoading = true;

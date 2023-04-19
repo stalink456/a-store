@@ -2,6 +2,6 @@
   --logo-color: #ef3124;
   --black-color: #000;
   --white-color: #fff;
-  --grey-color: rgba(0, 0, 0, 0.15);
+  --grey-color: rgb(0 0 0 / 15%);
   --border-color: #0000;
 }

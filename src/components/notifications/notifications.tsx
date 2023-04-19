@@ -1,14 +1,14 @@
-import React, { memo, useCallback, useMemo } from "react";
-import { useAppDispatch, useAppSelector } from "store";
+import React, { memo, useCallback, useMemo } from 'react';
+import { useAppDispatch, useAppSelector } from 'store';
 import {
   notificationsActions,
   notificationsSelector,
-} from "store/notifications";
+} from 'store/notifications';
 import {
   Notification,
   NotificationProps,
-} from "@alfalab/core-components/notification";
-import { NotificationManager } from "@alfalab/core-components/notification-manager";
+} from '@alfalab/core-components/notification';
+import { NotificationManager } from '@alfalab/core-components/notification-manager';
 
 export const Notifications = memo(() => {
   const dispatch = useAppDispatch();

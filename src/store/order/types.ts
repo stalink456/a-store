@@ -1,4 +1,4 @@
-import { FormValues } from "../../types";
+import { FormValues } from '../../types';
 
 export type OrderinitialStateType = {
   order: FormValues;

@@ -1,16 +1,16 @@
-import React from "react";
-import { Button } from "@alfalab/core-components/button";
-import { OptionShape } from "@alfalab/core-components/select";
-import { TitleWithSelect } from "components/ui-components/title-with-select";
-import { useProductForm } from "hooks/use-product-form";
+import React from 'react';
+import { Button } from '@alfalab/core-components/button';
+import { OptionShape } from '@alfalab/core-components/select';
+import { TitleWithSelect } from 'components/ui-components/title-with-select';
+import { useProductForm } from 'hooks/use-product-form';
 import {
   modifyOption,
   isDefineOptionValue,
   isDisabledButton,
-} from "utils/products";
-import { ProductFormType } from "./type";
+} from 'utils/products';
+import { ProductFormType } from './type';
 
-import styles from "./product-form.module.css";
+import styles from './product-form.module.css';
 
 export const ProductForm: React.FC<ProductFormType> = ({
   id,
@@ -31,8 +31,8 @@ export const ProductForm: React.FC<ProductFormType> = ({
   const renderColors = () =>
     colors ? (
       <TitleWithSelect
-        text="цвет"
-        name="colors"
+        text='цвет'
+        name='colors'
         options={modifyOption(colors)}
         selected={isDefineOptionValue(selected?.colors as OptionShape)}
         handleChangeSelect={handleChangeSelect}
@@ -42,8 +42,8 @@ export const ProductForm: React.FC<ProductFormType> = ({
   const renderSizes = () =>
     sizes ? (
       <TitleWithSelect
-        text="размер"
-        name="sizes"
+        text='размер'
+        name='sizes'
         options={modifyOption(sizes)}
         selected={isDefineOptionValue(selected?.sizes as OptionShape)}
         handleChangeSelect={handleChangeSelect}
@@ -53,8 +53,8 @@ export const ProductForm: React.FC<ProductFormType> = ({
   const renderStickerNumbers = () =>
     stickerNumbers ? (
       <TitleWithSelect
-        text="номер стикера"
-        name="stickerNumbers"
+        text='номер стикера'
+        name='stickerNumbers'
         options={modifyOption(stickerNumbers)}
         selected={isDefineOptionValue(selected?.stickerNumbers as OptionShape)}
         handleChangeSelect={handleChangeSelect}
@@ -69,11 +69,11 @@ export const ProductForm: React.FC<ProductFormType> = ({
         {renderStickerNumbers()}
 
         <Button
-          type="submit"
-          view="primary"
+          type='submit'
+          view='primary'
           disabled={isDisabledButton(selected, colors, sizes, stickerNumbers)}
           block
-          data-testid="basket"
+          data-testid='basket'
         >
           В корзину
         </Button>

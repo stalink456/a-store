@@ -1,4 +1,4 @@
-@import "../../../css/variables.css";
+@import url("../../../css/variables.css");
 
 .menu__footer {
   padding-left: 20px;
@@ -9,7 +9,7 @@
   background-color: var(--white-color);
 }
 
-@media (max-width: 640px) {
+@media (width <= 640px) {
   .menu__footer_icon {
     background-color: var(--black-color);
   }

@@ -1,7 +1,7 @@
 .contacts {
   width: 1200px;
-  padding: var(--gap-3xl) var(--gap-m);
   margin: 0 auto;
+  padding: var(--gap-3xl) var(--gap-m);
 }
 
 .contacts__title {
@@ -12,13 +12,13 @@
   padding: var(--gap-5xl) 0;
 }
 
-@media (max-width: 1220px) {
+@media (width <= 1220px) {
   .contacts {
     width: 100%;
   }
 }
 
-@media (max-width: 525px) {
+@media (width <= 525px) {
   .contacts__title {
     font-size: 50px;
   }

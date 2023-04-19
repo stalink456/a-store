@@ -1,10 +1,10 @@
-import React from "react";
-import { useAppDispatch, useAppSelector } from "store";
+import React from 'react';
+import { useAppDispatch, useAppSelector } from 'store';
 import {
   yourDesignActions,
   yourDesignGroupsSelector,
   yourDesignIsLoadingSelector,
-} from "store/your-design";
+} from 'store/your-design';
 
 export const useYourDesign = () => {
   const dispatch = useAppDispatch();

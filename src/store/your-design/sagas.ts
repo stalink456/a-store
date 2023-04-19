@@ -1,7 +1,7 @@
-import { getGroups } from "api/your-design/get-groups";
-import { call, put, takeLatest } from "redux-saga/effects";
-import { GroupsType } from "store/types";
-import { yourDesignActions } from ".";
+import { getGroups } from 'api/your-design/get-groups';
+import { call, put, takeLatest } from 'redux-saga/effects';
+import { GroupsType } from 'store/types';
+import { yourDesignActions } from '.';
 
 function* getYourDesignSaga() {
   try {

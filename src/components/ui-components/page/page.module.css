@@ -1,28 +1,28 @@
 .page {
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
   padding: 40px 0;
 }
 
-@media (max-width: 1065px) {
+@media (width <= 1065px) {
   .page {
     width: 640px;
   }
 }
 
-@media (max-width: 660px) {
+@media (width <= 660px) {
   .page {
     width: 500px;
   }
 }
 
-@media (max-width: 520px) {
+@media (width <= 520px) {
   .page {
     width: 450px;
   }
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .page {
     width: 400px;
   }

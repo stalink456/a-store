@@ -1,4 +1,4 @@
-@import "../../../css/animation.css";
+@import url("../../../css/animation.css");
 
 .order__delivery {
   composes: opacity from global;

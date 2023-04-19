@@ -169,6 +169,7 @@ exports[`CartItems component should render CartItems component 1`] = `
                   <p
                     class="typography__paragraph_c16y5 item__text_price typography__primary-medium_c16y5 typography__bold_c16y5"
                   >
+                    4999
                      ₽
                   </p>
                 </div>

@@ -1,1 +1,1 @@
-export { YourDesign as default } from "./your-design";
+export { YourDesign as default } from './your-design';

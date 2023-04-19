@@ -11,6 +11,29 @@ exports[`TitleWithComponent component should render TitleWithComponent component
       >
         Title
       </h6>
+      <div
+        class="form-control__component_e23cr form-control__component_1xedm form-control__s_e23cr form-control__block_e23cr"
+      >
+        <div
+          class="form-control__inner_e23cr form-control__inner_1xedm"
+        >
+          <div
+            class="form-control__inputWrapper_e23cr"
+          >
+            <div
+              class="form-control__input_e23cr"
+            >
+              <input
+                class="input__input_96c2k input__input_js93g"
+                data-testid="input-with-address"
+                placeholder="Индекс, город, улица, дом, квартира"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>

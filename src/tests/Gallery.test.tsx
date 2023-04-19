@@ -1,16 +1,16 @@
-import React from "react";
-import { MemoryRouter } from "react-router-dom";
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
-import "@testing-library/jest-dom";
-import { Gallery } from "components/ui-components/gallery";
-import * as images from "./mocks/get-images-200.json";
+import React from 'react';
+import { MemoryRouter } from 'react-router-dom';
+import { fireEvent, render, screen, waitFor } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { Gallery } from 'components/ui-components/gallery';
+import * as images from './mocks/get-images-200.json';
 
-const mockedImages = images["images"];
+const mockedImages = images['images'];
 const firstImage = mockedImages[0];
 const secondImage = mockedImages[1];
 
-describe("Gallery component", () => {
-  it("should render Gallery component with images", () => {
+describe('Gallery component', () => {
+  it('should render Gallery component with images', () => {
     const { baseElement } = render(<Gallery images={mockedImages} />, {
       wrapper: MemoryRouter,
     });
@@ -18,13 +18,13 @@ describe("Gallery component", () => {
     expect(baseElement).toMatchSnapshot();
   });
 
-  it("should render Gallery component with two images", async () => {
+  it('should render Gallery component with two images', async () => {
     render(<Gallery images={[firstImage]} />, { wrapper: MemoryRouter });
 
-    expect(await screen.findAllByRole("img")).toHaveLength(2);
+    expect(await screen.findAllByRole('img')).toHaveLength(2);
   });
 
-  it("should render Gallery component with switching images", async () => {
+  it('should render Gallery component with switching images', async () => {
     render(<Gallery images={mockedImages} />, { wrapper: MemoryRouter });
 
     expect(await screen.findAllByAltText(firstImage))[0] as HTMLImageElement;
@@ -38,7 +38,7 @@ describe("Gallery component", () => {
     render(<Gallery images={mockedImages} />, { wrapper: MemoryRouter });
 
     const image = screen.queryByAltText(
-      "non-existent image"
+      'non-existent image'
     ) as HTMLImageElement;
     await waitFor(() => expect(image === null).toBeTruthy());
   });
@@ -47,7 +47,7 @@ describe("Gallery component", () => {
     render(<Gallery images={mockedImages} />, { wrapper: MemoryRouter });
 
     const result = screen.queryByAltText(
-      "non-existent description"
+      'non-existent description'
     ) as HTMLImageElement;
     await waitFor(() => expect(result).not.toBeTruthy());
   });

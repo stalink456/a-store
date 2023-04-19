@@ -1,36 +1,36 @@
-import React from "react";
-import { MemoryRouter, Route, Routes } from "react-router-dom";
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
-import "@testing-library/jest-dom";
-import { MainPicture } from "components/ui-components/main-picture";
-import MadeInAlfa from "pages/made-in-alfa";
-import * as products from "./mocks/get-products-200.json";
-import * as loading from "./mocks/get-loading-false.json";
-import * as image from "./mocks/get-image-200.json";
+import React from 'react';
+import { MemoryRouter, Route, Routes } from 'react-router-dom';
+import { fireEvent, render, screen, waitFor } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { MainPicture } from 'components/ui-components/main-picture';
+import MadeInAlfa from 'pages/made-in-alfa';
+import * as products from './mocks/get-products-200.json';
+import * as loading from './mocks/get-loading-false.json';
+import * as image from './mocks/get-image-200.json';
 
-const mockProducts = products["products"];
-let mockIsLoading = loading["loading"];
-const mockedImage = image["image"];
+const mockProducts = products['products'];
+const mockIsLoading = loading['loading'];
+const mockedImage = image['image'];
 
-jest.mock("react-redux", () => ({
+jest.mock('react-redux', () => ({
   useDispatch: jest.fn(),
   useSelector: jest.fn(),
 }));
 
-jest.mock("hooks/use-made-in-alfa", () => ({
+jest.mock('hooks/use-made-in-alfa', () => ({
   useMadeInAlfa: () => ({
     products: mockProducts,
     isLoading: mockIsLoading,
   }),
 }));
 
-describe("MainPicture component", () => {
-  it("should render MainPicture component", () => {
+describe('MainPicture component', () => {
+  it('should render MainPicture component', () => {
     const { baseElement } = render(
       <MainPicture
         src={mockedImage}
-        text="Сделано в Альфе"
-        route={"/made-in-alfa"}
+        text='Сделано в Альфе'
+        route={'/made-in-alfa'}
       />,
       { wrapper: MemoryRouter }
     );
@@ -38,44 +38,44 @@ describe("MainPicture component", () => {
     expect(baseElement).toMatchSnapshot();
   });
 
-  it("should render MainPicture component with title", async () => {
+  it('should render MainPicture component with title', async () => {
     render(
       <MainPicture
         src={mockedImage}
-        text="Сделано в Альфе"
-        route={"/made-in-alfa"}
+        text='Сделано в Альфе'
+        route={'/made-in-alfa'}
       />,
       { wrapper: MemoryRouter }
     );
 
-    const result = await screen.findByText("Сделано в Альфе");
+    const result = await screen.findByText('Сделано в Альфе');
 
     expect(result).toBeInTheDocument();
   });
 
-  it("should render MainPicture component with transition to MadeInAlfaPage", async () => {
+  it('should render MainPicture component with transition to MadeInAlfaPage', async () => {
     render(
       <MemoryRouter>
         <Routes>
           <Route
-            path="/"
+            path='/'
             element={
               <MainPicture
                 src={mockedImage}
-                text="Сделано в Альфе"
-                route={"/made-in-alfa"}
+                text='Сделано в Альфе'
+                route={'/made-in-alfa'}
               />
             }
           />
-          <Route path="/made-in-alfa" element={<MadeInAlfa />} />
+          <Route path='/made-in-alfa' element={<MadeInAlfa />} />
         </Routes>
       </MemoryRouter>
     );
 
-    fireEvent.click(await screen.findByText("Сделано в Альфе"));
+    fireEvent.click(await screen.findByText('Сделано в Альфе'));
 
     expect(
-      await screen.findByText("Футболка с бархатными стикерами")
+      await screen.findByText('Футболка с бархатными стикерами')
     ).toBeInTheDocument();
   });
 
@@ -83,14 +83,14 @@ describe("MainPicture component", () => {
     render(
       <MainPicture
         src={mockedImage}
-        text="Сделано в Альфе"
-        route={"/made-in-alfa"}
+        text='Сделано в Альфе'
+        route={'/made-in-alfa'}
       />,
       { wrapper: MemoryRouter }
     );
 
     const image = screen.queryByAltText(
-      "non-existent image"
+      'non-existent image'
     ) as HTMLImageElement;
     await waitFor(() => expect(image === null).toBeTruthy());
   });
@@ -99,14 +99,14 @@ describe("MainPicture component", () => {
     render(
       <MainPicture
         src={mockedImage}
-        text="Сделано в Альфе"
-        route={"/made-in-alfa"}
+        text='Сделано в Альфе'
+        route={'/made-in-alfa'}
       />,
       { wrapper: MemoryRouter }
     );
 
     const result = screen.queryByAltText(
-      "non-existent description"
+      'non-existent description'
     ) as HTMLImageElement;
     await waitFor(() => expect(result).not.toBeTruthy());
   });

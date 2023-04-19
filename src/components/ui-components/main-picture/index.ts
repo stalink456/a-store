@@ -1,1 +1,1 @@
-export { MainPicture } from "./main-picture";
+export { MainPicture } from './main-picture';

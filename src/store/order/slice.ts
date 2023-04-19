@@ -1,24 +1,24 @@
-import { CaseReducer, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { OrderinitialStateType } from "./types";
-import { OrderType, DeliveryType } from "types";
+import { CaseReducer, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { OrderinitialStateType } from './types';
+import { OrderType, DeliveryType } from 'types';
 
 const initialState: OrderinitialStateType = {
   order: {
-    name: "",
-    email: "",
-    phone: "",
-    address: "",
+    name: '',
+    email: '',
+    phone: '',
+    address: '',
     deliveryType: null,
-    promocode: "",
+    promocode: '',
     isAgree: false,
-    comment: "",
+    comment: '',
     paymentType: null,
   },
   isShowing: false,
   isLoading: false,
 };
 
-const NAME = "order";
+const NAME = 'order';
 
 const openOrder: CaseReducer<OrderinitialStateType, PayloadAction<boolean>> = (
   state,

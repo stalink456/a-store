@@ -1,7 +1,7 @@
-import { CaseReducer, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { v1 } from "uuid";
+import { CaseReducer, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { v1 } from 'uuid';
 
-import { NotificationProps } from "@alfalab/core-components/notification";
+import { NotificationProps } from '@alfalab/core-components/notification';
 
 export type NotificationsStateType = {
   notifications: NotificationProps[];
@@ -11,7 +11,7 @@ const initialState: NotificationsStateType = {
   notifications: [],
 };
 
-const NAME = "notifications";
+const NAME = 'notifications';
 
 type AddNotificationProps = NotificationProps & { id?: string };
 
@@ -22,7 +22,7 @@ const notifications: CaseReducer<
   state.notifications.push({
     badge,
     title,
-    children: "",
+    children: '',
     autoCloseDelay: 3000,
     id: v1(),
   });
